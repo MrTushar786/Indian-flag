@@ -1,0 +1,32 @@
+.main {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px;
+    animation: tushar 2s infinite;
+    position: relative;
+}
+
+@keyframes tushar {
+    from { left: 0px;box-shadow: 5px 10px 50px green;}
+    to { left: 100px;box-shadow: 5px 10px 50px orange;}
+}
+
+.green, .white, .orange {
+    width: 100%;
+    height: 100px;
+}
+
+.green {
+    background: green;
+}
+
+body .white {
+    background: white;
+    background: url("Ashoka_Chakra.svg.png") center/contain no-repeat;
+}
+
+.orange {
+    background: orange;
+}
